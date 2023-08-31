@@ -1,0 +1,9 @@
+[Unit]
+Description=Hola y Fecha
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash /home/hola.sh
+
+[Install]
+WantedBy=multi-user.target
